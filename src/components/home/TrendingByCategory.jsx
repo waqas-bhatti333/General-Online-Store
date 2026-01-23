@@ -41,9 +41,9 @@ const TrendingByCategory = () => {
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all"></div>
 
               {/* Category Label */}
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-left text-white">
-                <div className="text-4xl mb-2">{cat.icon}</div>
-                <h3 className="text-xl font-bold">{cat.name}</h3>
+              <div className="absolute bottom-12 md:bottom-6 left-1/2 transform -translate-x-1/2 text-left text-white">
+                <div className="text-5xl md:text-4xl mb-2">{cat.icon}</div>
+                <h3 className="text-4xl md:text-xl font-bold">{cat.name}</h3>
               </div>
             </div>
           ))}

@@ -22,9 +22,8 @@ const Hero = () => {
       <div className="absolute -top-32 -left-32 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl"></div>
 
-      <div className="relative max-w-9xl mx-auto px-6 text-center md:text-left grid md:grid-cols-2 gap-50 items-center">
+      <div className="relative max-w-9xl mx-auto px-6 pt-25 md:pt-40 md:text-left grid md:grid-cols-2 gap-50 items-center">
         <div data-aos="fade-right">
-          <FaStore className="text-6xl text-pink-500 mb-6" />
 
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
             About <span className="text-pink-500">MiniStore</span>

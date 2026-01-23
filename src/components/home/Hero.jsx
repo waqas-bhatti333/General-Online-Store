@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-[100vh] flex items-center bg-cover bg-center overflow-hidden"
+      className="relative min-h-[95vh] flex items-center bg-cover bg-center overflow-hidden"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f')",
@@ -24,7 +24,7 @@ const Hero = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="relative max-w-9xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 gap-50 items-center">
+      <div className="relative max-w-9xl mx-auto px-6 py-24 pt-25 md:pt-40 grid grid-cols-1 md:grid-cols-2 gap-50 items-center">
         {/* Left Content */}
         <div className="text-white" data-aos="fade-right">
           <div className="flex items-center gap-3 mb-6" data-aos="fade-down">

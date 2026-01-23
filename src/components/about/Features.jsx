@@ -16,13 +16,13 @@ const Features = () => {
 
   return (
     <section className="bg-gray-50 py-20 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto  px-6 grid md:grid-cols-3 gap-10">
         {features.map((item, index) => (
           <div
             key={item.id}
             data-aos="fade-up"
             data-aos-delay={index * 150}
-            className="bg-white rounded-3xl shadow-lg p-10 text-center hover:shadow-2xl transition-all"
+            className="bg-white rounded-3xl shadow-lg p-5 md:p-10 text-center hover:shadow-2xl transition-all"
           >
             <div className="text-5xl text-pink-500 mb-6 flex justify-center">
               {item.icon}

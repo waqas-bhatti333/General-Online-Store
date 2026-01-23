@@ -17,13 +17,13 @@ const Status = () => {
 
   return (
     <section className="bg-black text-white py-20 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
         {stats.map((item, index) => (
           <div
             key={item.id}
             data-aos="fade-up"
             data-aos-delay={index * 150}
-            className="flex flex-col items-center p-6 bg-gray-900/20 rounded-3xl shadow-lg hover:shadow-2xl transition-all"
+            className="flex flex-col items-center p-4 md:p-6 bg-gray-900/20 rounded-3xl shadow-lg hover:shadow-2xl transition-all"
           >
             <div className="text-5xl text-pink-500 mb-4 flex justify-center">
               {item.icon}
