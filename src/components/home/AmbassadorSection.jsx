@@ -19,9 +19,9 @@ export default function AmbassadorSection() {
 
         {/* Button */}
        <div className="flex justify-center">
-  <button className="mt-8 bg-[#7D4CDB] text-white px-6 sm:px-8 py-3 rounded-md font-medium shadow-md flex items-center gap-2">
+  <button className="mt-8 bg-[#7D4CDB] text-white px-6 sm:px-8 py-3 rounded-md font-medium shadow-md flex items-center gap-2 text-sm cursor-pointer">
     Start Earning Today 
-    <IoIosArrowRoundForward className="text-xl" />
+    <IoIosArrowRoundForward className="text-2xl" />
   </button>
 </div>
 
