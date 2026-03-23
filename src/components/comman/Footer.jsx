@@ -76,11 +76,12 @@
 
 import { FaLinkedinIn, FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa";
+import { MdPhoneInTalk } from "react-icons/md";
+
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1f2937] text-white font-[Poppins] px-6 py-14">
+    <footer className="bg-[#111827] text-white font-[Poppins] px-6 py-14">
       <div className="max-w-7xl mx-auto">
 
         {/* Top Grid */}
@@ -88,18 +89,18 @@ export default function Footer() {
 
           {/* Logo + Info */}
           <div>
-            <h2 className="text-2xl font-semibold text-blue-400">JigoMart</h2>
-            <p className="text-gray-300 mt-4 text-sm leading-relaxed">
+            <h2 className="text-2xl font-semibold text-[#60a5fa]">JigoMart</h2>
+            <p className="text-[#d1d5db] mt-4 text-sm leading-relaxed">
               Connecting students through buying and selling made easy.
             </p>
 
-            <div className="mt-4 space-y-2 text-sm text-gray-300">
+            <div className="mt-4 space-y-2 text-sm text-[#d1d5db]">
               <div className="flex items-center gap-2">
-                <MdEmail size={16} />
+                <MdEmail size={16} className="text-[#7D4CDB]"/>
                 <span>emmaogbidi@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
-                <FaPhone size={14} />
+                <MdPhoneInTalk size={16} className="text-[#7D4CDB]"/>
                 <span>+234 7086984841</span>
               </div>
             </div>
@@ -107,8 +108,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <h3 className="font-semibold mb-4 text-white">Quick Links</h3>
+            <ul className="space-y-2 text-sm text-[#d1d5db]">
               <li>Home</li>
               <li>Shop</li>
               <li>Sell</li>
@@ -119,8 +120,8 @@ export default function Footer() {
 
           {/* Support */}
           <div>
-            <h3 className="font-semibold mb-4">Support & Legal</h3>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <h3 className="font-semibold mb-4 text-white">Support & Legal</h3>
+            <ul className="space-y-2 text-sm text-[#d1d5db]">
               <li>Privacy Policy</li>
               <li>Terms & Conditions</li>
               <li>Return Policy</li>
@@ -131,28 +132,28 @@ export default function Footer() {
 
           {/* Payment */}
           <div>
-            <h3 className="font-semibold mb-4">Payment & Trust Indicators</h3>
-            <p className="text-sm text-gray-300 leading-relaxed">
+            <h3 className="font-semibold mb-4 text-white">Payment & Trust Indicators</h3>
+            <p className="text-sm text-[#d1d5db] leading-relaxed">
               Accepted payment methods (e.g escrow, paystack)
             </p>
-            <p className="text-sm text-gray-300 mt-3 leading-relaxed">
+            <p className="text-sm text-[#d1d5db] mt-3 leading-relaxed">
               All transactions are secured and verified.
             </p>
           </div>
         </div>
 
         {/* Divider */}
-        <div className="border-t border-purple-500 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-[#7c3aed] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
-          <p className="text-sm text-gray-400">
-            © 2025 JigoMart. All rights reserved. Built for students
+          <p className="text-sm text-[#9ca3af]">
+            <span className="text-[#7D4CDB] text-lg">©</span> 2025 JigoMart. All rights reserved. Built for students
           </p>
 
-          <div className="flex gap-4 text-gray-300">
-            <FaLinkedinIn size={16} />
-            <FaTwitter size={16} />
-            <FaInstagram size={16} />
-            <FaFacebookF size={16} />
+          <div className="flex gap-4 text-[#d1d5db]">
+            <FaLinkedinIn size={18} />
+            <FaTwitter size={18} />
+            <FaInstagram size={18} />
+            <FaFacebookF size={18} />
           </div>
         </div>
 
