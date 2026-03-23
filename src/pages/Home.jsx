@@ -3,8 +3,6 @@ import Hero from "../components/home/Hero";
 import Products from "../components/home/Products";
 import Categories from "../components/home/Categories";
 import TrendingByCategory from "../components/home/TrendingByCategory";
-import AmbassadorSection from "../components/home/AmbassadorSection";
-import FAQSection from "../components/home/FAQSection";
 
 
 export default function Home() {
@@ -14,9 +12,6 @@ export default function Home() {
       <Products/>
       <Categories/>
       <TrendingByCategory/>
-      <AmbassadorSection/>
-      <FAQSection/>
-      <AmbassadorSection/>
       </div>
   );
 }
